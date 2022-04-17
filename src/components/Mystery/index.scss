@@ -1,0 +1,27 @@
+.mystery{
+	background-color: #002313;
+	padding-left: 10%;
+	padding-right: 10%;
+	padding-bottom: 10px;
+	color: white;
+	.main-story{
+		img{
+			width: 50%;
+		}
+	}
+	.story-text{
+		margin-top: 30px;
+		font-size: 20px;
+	}
+}
+
+@media only screen and (max-width: 720px) {
+    .mystery{
+		padding-left: 5%;
+		padding-right: 5%;
+		.story-text{
+			margin-top: 30px;
+			font-size: 16px;
+		}
+	}
+}

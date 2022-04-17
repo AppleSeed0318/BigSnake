@@ -1,0 +1,34 @@
+
+
+.main {
+	margin-top: 7%;
+	.main-title{
+		.logo{
+			text-align: center;
+			width: 40%;
+			margin: auto;
+		}
+	}
+	.main-contents{
+		display: flex;
+		justify-content: space-between;
+		padding-left: 5%;
+		padding-right: 5%;
+		margin-top: 5%;
+		.snake_character {
+			margin-right: 10px;
+			margin-left: 10px;
+			max-width: 160px;
+		}
+	}
+	.main-story {
+		max-width: 800px;
+		margin: auto;
+		img {
+			width: 40%;
+		}
+	}
+}
+
+
+

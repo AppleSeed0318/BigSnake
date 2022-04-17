@@ -1,0 +1,64 @@
+.person-info {
+
+	width: 25%;
+    /* height: 380px; */
+    margin-left: 20px;
+    margin-right: 20px;
+
+	.person-photo {
+		width: 200px;
+		margin: 0 auto;
+		text-align: center;
+		width: 100%;
+		h3{
+			font-size: 2vw;
+		}
+		img{
+			width: 200px;
+			height: 200px;
+		}
+	}
+	.person-realname {
+		text-align: center;
+	}
+}
+
+@media only screen and (max-width: 860px) {
+	.person-info {
+
+		width: 200px;
+		margin-left: 10px;
+		margin-right: 10px;
+	
+		.person-photo {
+			width: 160px;
+			img{
+				width: 160px;
+				height: 160px;
+			}
+		}
+		.person-description {
+			display: none;
+		}
+	}
+}
+
+@media only screen and (max-width: 680px) {
+	.person-info {
+
+		width: 160px;
+		margin-left: 10px;
+		margin-right: 10px;
+	
+		.person-photo {
+			width: 120px;
+			img{
+				width: 120px;
+				height: 120px;
+			}
+		}
+		.person-description {
+			display: none;
+		}
+	}
+}

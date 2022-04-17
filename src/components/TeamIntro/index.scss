@@ -1,0 +1,22 @@
+.team-intro {
+	background-color: rgba(0, 0, 0, 0.5);
+    margin-top: 20px;
+
+    color: white;
+	.team-intro-header{
+		text-align: center;
+		margin: auto;
+		margin-bottom: 36px;
+		font-family: "snake-font";
+		width: 40%;
+
+		img{
+			margin-top: 20px;
+		}
+	}
+	.team-intro-contents {
+		display: flex;
+		justify-content: center;
+		flex-wrap: wrap;
+	}
+}

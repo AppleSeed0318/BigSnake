@@ -1,4 +1,173 @@
+@font-face {
+    font-family: "snake-font";
+    src: local("snake-font"),
+     url("../../fonts/Snake in the Boot.ttf") format("truetype");
+    font-weight: bold;
+}
+    
+
 .container {
-    width:100%;
-    height:100vh;
+    /* background-image:url("../../../public/image/background.jpg") ; */
+    /* background-repeat: no-repeat; */
+    /* padding-top: 10px; */
+    /* background-size: 100% 100%;
+    max-width:100%;
+    height:auto; */
+    position: relative;
+}
+
+.container-header{
+    background-color: #002313;
+}
+.container-main{
+    background-color: #06b5ec;
+}
+
+.container-footer{
+    background-color: #06b5ec;
+}
+
+.backImgContainer{
+    width: 100%;
+    z-index: -1;
+}
+
+.backImgContainer img{
+    width: 100%;
+}
+
+.container div.header-contains {
+    position: absolute;
+    width: 100%;
+}
+
+.container div.main-contains {
+    position: absolute;
+    width: 100%;
+    padding-top: 30px;
+}
+
+.container div.footer-contains {
+    position: absolute;
+    width: 100%;
+    bottom: 30px;
+}
+
+.backImg3{
+    margin-bottom: -6px;
+}
+
+
+@media only screen and (max-width: 730px) {
+	.container-footer{
+        padding-top: 5%;
+    }
+}
+
+@media only screen and (max-width: 710px) {
+	.container-footer{
+        padding-top: 10%;
+    }
+}
+
+@media only screen and (max-width: 700px) {
+	.container-footer{
+        padding-top: 20%;
+    }
+}
+
+@media only screen and (max-width: 670px) {
+	.container-footer{
+        padding-top: 25%;
+    }
+}
+
+@media only screen and (max-width: 635px) {
+	.container-footer{
+        padding-top: 30%;
+    }
+}
+
+@media only screen and (max-width: 620px) {
+	.container-footer{
+        padding-top: 35%;
+    }
+}
+
+@media only screen and (max-width: 610px) {
+	.container-footer{
+        padding-top: 40%;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+	.container-footer{
+        padding-top: 60%;
+    }
+}
+
+@media only screen and (max-width: 580px) {
+	.container-footer{
+        padding-top: 80%;
+    }
+}
+
+@media only screen and (max-width: 556px) {
+	.container-footer{
+        padding-top: 90%;
+    }
+}
+
+@media only screen and (max-width: 545px) {
+	.container-footer{
+        padding-top: 100%;
+    }
+}
+
+@media only screen and (max-width: 528px) {
+	.container-footer{
+        padding-top: 110%;
+    }
+}
+
+@media only screen and (max-width: 520px) {
+	.container-footer{
+        padding-top: 120%;
+    }
+}
+
+@media only screen and (max-width: 510px) {
+	.container-footer{
+        padding-top: 140%;
+    }
+}
+
+@media only screen and (max-width: 450px) {
+	.container-footer{
+        padding-top: 160%;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+	.container-footer{
+        padding-top: 180%;
+    }
+}
+
+@media only screen and (max-width: 376px) {
+	.container-footer{
+        padding-top: 240%;
+    }
+}
+
+@media only screen and (max-width: 327px) {
+	.container-footer{
+        padding-top: 250%;
+    }
+}
+
+@media only screen and (max-width: 320px) {
+	.container-footer{
+        padding-top: 260%;
+    }
 }

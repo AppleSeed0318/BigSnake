@@ -1,0 +1,55 @@
+import React from "react";
+import "./index.scss"
+
+const Roadmap = () => {
+    return (
+        <div className="roadmap" id = "roadmap" >
+            <div className="roadmap-title align-center">
+                <img src="/image/roadmap.png"/>
+            </div>
+            <div className="roadmap-content1">
+                <div>
+                    <h3>COMPLETED</h3>
+                    <p>Whitepaper</p>
+                    <p>Make a Team</p>
+                    <p>Nft's Design</p>
+                    <p>Open Discord server</p>
+                    <p>+500 members in discord community</p>
+                    <p>Whitelist on atomic hub</p>
+                    
+                    <p>Website</p>
+                    <p>Complete all Nft's</p>
+                    <p>Whitelist Event</p>
+                    <p>Pre-sale</p>
+                    <p>special Giveaway for Nft Holders</p>
+                    <p>Pre-sale 2nd</p>
+                    <p>+5000 members in discord community</p>
+                    <p>Game launch</p>
+                </div>
+            </div>
+            <div className="roadmap-space">
+
+            </div>
+            <div className="roadmap-content2">
+                <div>
+                    <h3>UP NEXT</h3>
+                    <p>snakes pvp</p>
+                    <p>battle arena</p>
+                    <p>mobile app ios</p>
+                    <p>mobile app android</p>
+                    <p>multiplayer</p>
+                    <p>Partnerships with other projects</p>
+
+                    <p>snake house</p>
+                    <p>live chat in game</p>
+                    <p>tokens exchange in-game</p>
+                    <p>new nft's</p>
+                    <p>improve in gameplay</p>
+                </div>
+            </div>
+        </div>
+    );
+};
+
+export default Roadmap;
+

@@ -24,3 +24,11 @@ code {
 }
 
 img{max-width: 100%;}
+
+ul {
+  list-style-type: none;
+}
+
+.align-center{
+  text-align: center;
+}
