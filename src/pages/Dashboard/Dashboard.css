@@ -44,7 +44,7 @@
 .container div.main-contains {
     position: absolute;
     width: 100%;
-    padding-top: 30px;
+    padding-top: 20%;
 }
 
 .container div.footer-contains {
@@ -58,49 +58,49 @@
 }
 
 
-@media only screen and (max-width: 730px) {
+@media only screen and (max-width: 780px) {
 	.container-footer{
         padding-top: 5%;
     }
 }
 
-@media only screen and (max-width: 710px) {
+@media only screen and (max-width: 760px) {
 	.container-footer{
         padding-top: 10%;
     }
 }
 
-@media only screen and (max-width: 700px) {
+@media only screen and (max-width: 740px) {
 	.container-footer{
         padding-top: 20%;
     }
 }
 
-@media only screen and (max-width: 670px) {
+@media only screen and (max-width: 700px) {
 	.container-footer{
         padding-top: 25%;
     }
 }
 
-@media only screen and (max-width: 635px) {
+@media only screen and (max-width: 675px) {
 	.container-footer{
         padding-top: 30%;
     }
 }
 
-@media only screen and (max-width: 620px) {
+@media only screen and (max-width: 666px) {
 	.container-footer{
         padding-top: 35%;
     }
 }
 
-@media only screen and (max-width: 610px) {
+@media only screen and (max-width: 630px) {
 	.container-footer{
         padding-top: 40%;
     }
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 620px) {
 	.container-footer{
         padding-top: 60%;
     }
@@ -124,7 +124,7 @@
     }
 }
 
-@media only screen and (max-width: 528px) {
+@media only screen and (max-width: 538px) {
 	.container-footer{
         padding-top: 110%;
     }
@@ -156,18 +156,24 @@
 
 @media only screen and (max-width: 376px) {
 	.container-footer{
+        padding-top: 200%;
+    }
+}
+
+@media only screen and (max-width: 359px) {
+	.container-footer{
+        padding-top: 220%;
+    }
+}
+
+@media only screen and (max-width: 350px) {
+	.container-footer{
         padding-top: 240%;
     }
 }
 
-@media only screen and (max-width: 327px) {
-	.container-footer{
-        padding-top: 250%;
-    }
-}
-
-@media only screen and (max-width: 320px) {
-	.container-footer{
+@media only screen and (max-width: 325px) {
+    .container-footer{
         padding-top: 260%;
     }
 }

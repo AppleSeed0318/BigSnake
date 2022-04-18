@@ -39,7 +39,7 @@ const AppBar = ({ menuClick }: Props) => {
             </a>
           </li>
           <li>
-            <a href="#">
+            <a href="https://discord.gg/hEHz59ur9D">
               <img src="/image/icon-discord.svg" />
             </a>
           </li>
@@ -50,7 +50,7 @@ const AppBar = ({ menuClick }: Props) => {
           </li>
           <li>
             <a href="#">
-              <img src="/image/icon-twitter.svg" />
+              <img src="/image/icon-instagram.svg" />
             </a>
           </li>
           <li className="btn-play">

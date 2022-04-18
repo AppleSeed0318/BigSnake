@@ -24,7 +24,7 @@ const Footer = () => {
                         <li><a href="#"><img src="/image/icon-twitter.svg" /></a></li>
                         <li><a href="#"><img src="/image/icon-discord.svg" /></a></li>
                         <li><a href="#"><img src="/image/icon-telegram.svg" /></a></li>
-                        <li><a href="#"><img src="/image/icon-twitter.svg" /></a></li>
+                        <li><a href="#"><img src="/image/icon-instagram.svg" /></a></li>
                     </ul>
                 </div>
                 <div className="outside-links">

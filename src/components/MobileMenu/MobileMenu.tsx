@@ -1,7 +1,11 @@
 import React, { useEffect, useState } from "react";
 import clsx from "clsx";
 import "./MobileMenu.scss";
-import twitterIcon from "./../../image/iconTwitter.svg";
+import twitterIcon from "./../../image/icon-twitter.svg";
+import discordIcon from "./../../image/icon-discord.svg";
+import telegramIcon from "./../../image/icon-telegram.svg";
+import instagramIcon from "./../../image/icon-instagram.svg";
+
 import ClearIcon from "@mui/icons-material/Clear";
 
 interface Props {
@@ -60,10 +64,10 @@ export default function MobileMenu({
         <a href = "#team">TEAM</a>
       </div>
       <div className="socialLinkContainer">
-        <img src={twitterIcon} className="socialIcon" />
-        <img src={twitterIcon} className="socialIcon" />
-        <img src={twitterIcon} className="socialIcon" />
-        <img src={twitterIcon} className="socialIcon" />
+        <a href = "#"><img src={twitterIcon} className="socialIcon" /></a>
+        <a href = "https://discord.gg/hEHz59ur9D"><img src={discordIcon} className="socialIcon" /></a>
+        <a href = "#"><img src={telegramIcon} className="socialIcon" /></a>
+        <a href = "#"><img src={instagramIcon} className="socialIcon" /></a>
       </div>
       <div className="playBtn">Play</div>
     </div>
