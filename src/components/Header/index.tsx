@@ -34,7 +34,7 @@ const AppBar = ({ menuClick }: Props) => {
       <div className="social-btns">
         <ul>
           <li>
-            <a href="#">
+            <a href="https://twitter.com/BigSnakes_P2E">
               <img src="/image/icon-twitter.svg" />
             </a>
           </li>
@@ -44,13 +44,13 @@ const AppBar = ({ menuClick }: Props) => {
             </a>
           </li>
           <li>
-            <a href="#">
-              <img src="/image/icon-telegram.svg" />
+            <a href="https://wax.atomichub.io/explorer/collection/bigsnakesp2e">
+              <img src="/image/icon-atomic.svg" />
             </a>
           </li>
           <li>
-            <a href="#">
-              <img src="/image/icon-instagram.svg" />
+            <a href="https://neftyblocks.com/c/bigsnakesp2e">
+              <img src="/image/icon-neftyblock.png" />
             </a>
           </li>
           <li className="btn-play">

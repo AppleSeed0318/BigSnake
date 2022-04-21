@@ -3,8 +3,8 @@ import clsx from "clsx";
 import "./MobileMenu.scss";
 import twitterIcon from "./../../image/icon-twitter.svg";
 import discordIcon from "./../../image/icon-discord.svg";
-import telegramIcon from "./../../image/icon-telegram.svg";
-import instagramIcon from "./../../image/icon-instagram.svg";
+import neftyblockIcon from "./../../image/icon-neftyblock.png";
+import atomicIcon from "./../../image/icon-atomic.svg";
 
 import ClearIcon from "@mui/icons-material/Clear";
 
@@ -64,10 +64,10 @@ export default function MobileMenu({
         <a href = "#team">TEAM</a>
       </div>
       <div className="socialLinkContainer">
-        <a href = "#"><img src={twitterIcon} className="socialIcon" /></a>
+        <a href = "https://twitter.com/BigSnakes_P2E"><img src={twitterIcon} className="socialIcon" /></a>
         <a href = "https://discord.gg/hEHz59ur9D"><img src={discordIcon} className="socialIcon" /></a>
-        <a href = "#"><img src={telegramIcon} className="socialIcon" /></a>
-        <a href = "#"><img src={instagramIcon} className="socialIcon" /></a>
+        <a href = "https://wax.atomichub.io/explorer/collection/bigsnakesp2e"><img src={atomicIcon} className="socialIcon" /></a>
+        <a href = "https://neftyblocks.com/c/bigsnakesp2e"><img src={neftyblockIcon} className="socialIcon" /></a>
       </div>
       <div className="playBtn">Play</div>
     </div>

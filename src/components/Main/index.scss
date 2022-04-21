@@ -4,10 +4,20 @@
 	margin-top: 7%;
 	.main-title{
 		.logo{
+			
 			text-align: center;
 			width: 40%;
 			margin: auto;
+			
 		}
+		.logo:hover{
+			width:42%;
+			transition-duration: 300ms;
+			img{
+				width: 100%;
+			}
+		}
+
 	}
 	.main-contents{
 		display: flex;

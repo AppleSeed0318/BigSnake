@@ -58,95 +58,96 @@
 }
 
 
-@media only screen and (max-width: 780px) {
+@media only screen and (max-width: 890px) {
 	.container-footer{
-        padding-top: 5%;
+        padding-top: 50px;
+    }
+}
+
+@media only screen and (max-width: 840px) {
+	.container-footer{
+        padding-top: 80px;
+    }
+}
+
+@media only screen and (max-width: 825px) {
+	.container-footer{
+        padding-top: 120px;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    .container-footer{
+        padding-top: 150px;
+    }
+}
+
+@media only screen and (max-width: 784px) {
+	.container-footer{
+        padding-top: 180px;
+    }
+}
+
+@media only screen and (max-width: 770px) {
+	.container-footer{
+        padding-top: 200px;
     }
 }
 
 @media only screen and (max-width: 760px) {
 	.container-footer{
-        padding-top: 10%;
+        padding-top: 250px;
     }
 }
 
-@media only screen and (max-width: 740px) {
+@media only screen and (max-width: 730px) {
 	.container-footer{
-        padding-top: 20%;
+        padding-top: 300px;
     }
 }
 
 @media only screen and (max-width: 700px) {
 	.container-footer{
-        padding-top: 25%;
+        padding-top: 350px;
     }
 }
 
 @media only screen and (max-width: 675px) {
 	.container-footer{
-        padding-top: 30%;
+        padding-top: 400px;
     }
 }
 
-@media only screen and (max-width: 666px) {
+@media only screen and (max-width: 650px) {
 	.container-footer{
-        padding-top: 35%;
-    }
-}
-
-@media only screen and (max-width: 630px) {
-	.container-footer{
-        padding-top: 40%;
+        padding-top: 450px;
     }
 }
 
 @media only screen and (max-width: 620px) {
 	.container-footer{
-        padding-top: 60%;
+        padding-top: 500px;
     }
 }
 
-@media only screen and (max-width: 580px) {
+@media only screen and (max-width: 590px) {
 	.container-footer{
-        padding-top: 80%;
+        padding-top: 600px;
     }
 }
 
-@media only screen and (max-width: 556px) {
+@media only screen and (max-width: 550px) {
 	.container-footer{
-        padding-top: 90%;
-    }
-}
-
-@media only screen and (max-width: 545px) {
-	.container-footer{
-        padding-top: 100%;
-    }
-}
-
-@media only screen and (max-width: 538px) {
-	.container-footer{
-        padding-top: 110%;
-    }
-}
-
-@media only screen and (max-width: 520px) {
-	.container-footer{
-        padding-top: 120%;
+        padding-top: 650px;
     }
 }
 
 @media only screen and (max-width: 510px) {
 	.container-footer{
-        padding-top: 140%;
+        padding-top: 700px;
     }
 }
 
-@media only screen and (max-width: 450px) {
-	.container-footer{
-        padding-top: 160%;
-    }
-}
 
 @media only screen and (max-width: 400px) {
 	.container-footer{

@@ -11,29 +11,28 @@ const Footer = () => {
             </div>
             <div className="footer-contents">
                 <div className="outside-links">
-                    <h3>About Us</h3>
+                    <h3>Links</h3>
                     <ul>
-                        <li><a href="#">Company Profile</a></li>
-                        <li><a href="#">CSR Initiatives</a></li>
-                        <li><a href="#">Read Articles</a></li>
-                        <li><a href="#">Media Kit</a></li>
+                        <li><a href="https://discord.gg/hEHz59ur9D">Discord Server</a></li>
+                        <li><a href="https://wax.atomichub.io/explorer/collection/bigsnakesp2e">Atomichub</a></li>
+                        <li><a href="https://neftyblocks.com/c/bigsnakesp2e">Nifty blocks</a></li>
+                        <li><a href="https://twitter.com/BigSnakes_P2E">Twitter</a></li>
                     </ul>
                 </div>
                 <div className="social-links">
                     <ul>
-                        <li><a href="#"><img src="/image/icon-twitter.svg" /></a></li>
-                        <li><a href="#"><img src="/image/icon-discord.svg" /></a></li>
-                        <li><a href="#"><img src="/image/icon-telegram.svg" /></a></li>
-                        <li><a href="#"><img src="/image/icon-instagram.svg" /></a></li>
+                        <li><a href="https://twitter.com/BigSnakes_P2E"><img src="/image/icon-twitter.svg" /></a></li>
+                        <li><a href="https://discord.gg/hEHz59ur9D"><img src="/image/icon-discord.svg" /></a></li>
+                        <li><a href="https://wax.atomichub.io/explorer/collection/bigsnakesp2e"><img src="/image/icon-atomic.svg" /></a></li>
+                        <li><a href="https://neftyblocks.com/c/bigsnakesp2e"><img src="/image/icon-neftyblock.png" /></a></li>
                     </ul>
                 </div>
                 <div className="outside-links">
-                    <h3>Connect</h3>
+                    <h3>More Info</h3>
                     <ul>
-                        <li><a href="#">Employee Portal</a></li>
-                        <li><a href="#">Customer Portal</a></li>
-                        <li><a href="#">Offices</a></li>
-                        <li><a href="#">Know More</a></li>
+                        <li><a href="https://big-snakes.gitbook.io/big-snakes/">White Paper</a></li>
+                        <li><a href="https://big-snakes.gitbook.io/big-snakes/more-information/flow-chart">Flow Chart</a></li>
+                        <li><a href="https://big-snakes.gitbook.io/big-snakes/more-information/road-map">Roadmap</a></li>
                     </ul>
                 </div>
             </div>

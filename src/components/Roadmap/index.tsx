@@ -8,8 +8,8 @@ const Roadmap = () => {
                 <img src="/image/roadmap.png"/>
             </div>
             <div className="roadmap-content1">
-                <div>
-                    <h3>COMPLETED</h3>
+                <div className="text">
+                    <h3>CURRENT</h3>
                     <p>Whitepaper</p>
                     <p>Make a Team</p>
                     <p>Nft's Design</p>
@@ -26,12 +26,21 @@ const Roadmap = () => {
                     <p>+5000 members in discord community</p>
                     <p>Game launch</p>
                 </div>
+                <div className="nft">
+                    
+                    <img src = "/image/nft/regeneration_potion_NFT.png"/>
+                </div>
+                
             </div>
             <div className="roadmap-space">
 
             </div>
             <div className="roadmap-content2">
-                <div>
+                <div className="nft">
+                    <img src = "/image/nft/BIG_SNAKE_PACK_NFT.png"/>
+                </div>
+                
+                <div className="text">
                     <h3>UP NEXT</h3>
                     <p>snakes pvp</p>
                     <p>battle arena</p>

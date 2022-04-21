@@ -6,28 +6,38 @@
 }
 .roadmap-content1 {
 	margin-left: 10%;
+	margin-right: 10%;
 	display: flex;
-    justify-content: left;
+    justify-content: space-between;
 	font-size: 2vw;
-	div{
+	div.text{
 		padding: 60px;
 		padding-left: 7%;
 		background: url('../../image/roadmap_paper.png') no-repeat;
 		background-size: 100% 100%;
 	}
+	div.nft{
+		display: flex;
+    	align-items: center;
+	}
 	
 }
 
 .roadmap-content2 {
+	margin-left: 10%;
 	margin-right: 10%;
 	display: flex;
-    justify-content: right;
+    justify-content: space-between;
 	font-size: 2vw;
-	div{
+	div.text{
 		padding: 60px;
 		padding-left: 7%;
 		background: url('../../image/roadmap_paper.png') no-repeat;
 		background-size: 100% 100%;
+	}
+	div.nft{
+		display: flex;
+    	align-items: center;
 	}
 }
 
@@ -54,13 +64,29 @@
 }
 
 
-@media only screen and (max-width: 1030px) {
+@media only screen and (max-width: 1035px) {
 	.roadmap-space {
 		height: 0px;
 	}
 }
 
-@media only screen and (max-width: 880px) {
+@media only screen and (max-width: 985px) {
+    .roadmap-content1 {
+		justify-content: left;
+		div.nft{
+			display:none;
+		}
+	}
+	
+	.roadmap-content2 {
+		justify-content: right;
+		div.nft{
+			display:none;
+		}
+	}
+}
+
+@media only screen and (max-width: 944px) {
     .roadmap-content1 {
 		margin-left: 10%;
 		font-size: 16px;
@@ -76,7 +102,7 @@
 @media only screen and (max-width: 480px) {
     .roadmap-content1 {
 		font-size: 3vw;
-		div{
+		div.text{
 			padding: 30px;
 		}
 		
@@ -84,7 +110,7 @@
 	
 	.roadmap-content2 {
 		font-size: 3vw;
-		div{
+		div.text{
 			padding: 30px;
 		}
 	}

@@ -1,15 +1,16 @@
 .person-info {
 
-	width: 25%;
+	width: 240px;
     /* height: 380px; */
-    margin-left: 20px;
-    margin-right: 20px;
-
+    margin-left: 30px;
+    margin-right: 30px;
+	margin-bottom: 20px;
+	
 	.person-photo {
-		width: 200px;
+		width: 240px;
 		margin: 0 auto;
 		text-align: center;
-		width: 100%;
+		
 		h3{
 			font-size: 2vw;
 		}
@@ -25,6 +26,47 @@
 	}
 }
 
+.scroll-btn-right{
+	display:none;
+}
+
+.scroll-btn-right.active{
+	cursor:pointer;
+	position: absolute;
+	margin-top: 90px;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 50px;
+}
+
+.scroll-btn-left{
+	display:none;
+}
+
+.scroll-btn-left.active{
+	cursor:pointer;
+	position: absolute;
+	margin-top: 90px;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 50px;
+}
+
+
+.scroll-btn-right{
+	right: 0px;
+}
+
+.padding{
+	padding-left:30px;
+	padding-right:30px;
+}
+
+/*
 @media only screen and (max-width: 960px) {
 	.person-info {
 
@@ -64,3 +106,4 @@
 		}
 	}
 }
+*/

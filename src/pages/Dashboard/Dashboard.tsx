@@ -1,4 +1,4 @@
-import React, {useState} from "react";
+import React, {useState, useEffect} from "react";
 import "./Dashboard.css";
 import AppBar from "../../components/Header"
 import TeamIntro from "../../components/TeamIntro"
@@ -24,6 +24,10 @@ export const Dashboard = () => {
   const handleMobileMenuClose = () => {
     setMobileMenuStatus(false);
   };
+
+  useEffect(() => {
+    
+  });
 
   return (
     <div className="container">

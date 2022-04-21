@@ -11,12 +11,13 @@
 		width: 40%;
 
 		img{
-			margin-top: 20px;
+			margin-top: 60px;
 		}
 	}
 	.team-intro-contents {
 		display: flex;
-		justify-content: center;
-		flex-wrap: wrap;
+		overflow: hidden;
+		width: 100%;
+		justify-content: space-between;
 	}
 }
