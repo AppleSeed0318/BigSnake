@@ -1,14 +1,19 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import "./index.scss"
 
+import AOS from "aos";
+import "aos/dist/aos.css";
+
 const Roadmap = () => {
+
+
     return (
         <div className="roadmap" id = "roadmap" >
-            <div className="roadmap-title align-center">
+            <div className="roadmap-title align-center" data-aos="fade-up">
                 <img src="/image/roadmap.png"/>
             </div>
-            <div className="roadmap-content1">
-                <div className="text">
+            <div className="roadmap-content1" >
+                <div className="text" data-aos="fade-right">
                     <h3>CURRENT</h3>
                     <p>Whitepaper</p>
                     <p>Make a Team</p>
@@ -26,7 +31,7 @@ const Roadmap = () => {
                     <p>+5000 members in discord community</p>
                     <p>Game launch</p>
                 </div>
-                <div className="nft">
+                <div className="nft" data-aos="fade-left">
                     
                     <img src = "/image/nft/regeneration_potion_NFT.png"/>
                 </div>
@@ -36,11 +41,11 @@ const Roadmap = () => {
 
             </div>
             <div className="roadmap-content2">
-                <div className="nft">
+                <div className="nft"  data-aos="fade-right">
                     <img src = "/image/nft/BIG_SNAKE_PACK_NFT.png"/>
                 </div>
                 
-                <div className="text">
+                <div className="text" data-aos="fade-left">
                     <h3>UP NEXT</h3>
                     <p>snakes pvp</p>
                     <p>battle arena</p>

@@ -1,5 +1,8 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import "./person.scss"
+
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 export interface PersonData {
   photo: string,
@@ -9,8 +12,14 @@ export interface PersonData {
 }
 
 const PersonInfo = ({photo, name, title, description}:PersonData) => {
+
+  useEffect(() => {
+    AOS.init({duration: 1000});
+    AOS.refresh();
+  }, []);
+
     return (
-        <div className="person-info">
+        <div className="person-info" data-aos="zoom-in">
             <div className="person-photo">
                 
                 <img src={"/image/team/" + photo}/>

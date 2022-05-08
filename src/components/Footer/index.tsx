@@ -30,9 +30,13 @@ const Footer = () => {
                 <div className="outside-links">
                     <h3>More Info</h3>
                     <ul>
-                        <li><a href="https://big-snakes.gitbook.io/big-snakes/">White Paper</a></li>
-                        <li><a href="https://big-snakes.gitbook.io/big-snakes/more-information/flow-chart">Flow Chart</a></li>
-                        <li><a href="https://big-snakes.gitbook.io/big-snakes/more-information/road-map">Roadmap</a></li>
+
+                    <li>Address :-     1107/1, Shastri Nagar, Rohtak Rohtak HR 124001 IN</li>
+                    <li>Company Name:-    SNAKES TECH PRIVATE LIMITED</li>
+                    <li>CIN:-     U74999HR2022PTC103383</li>
+                    <li>Registration Number:-    103383</li>
+                    <li>CEO:-     Kamaljeet balhara</li>
+                    
                     </ul>
                 </div>
             </div>

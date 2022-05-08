@@ -5,6 +5,7 @@ import TeamIntro from "../../components/TeamIntro"
 import Footer from "../../components/Footer";
 import Main from "../../components/Main";
 import MobileMenu from "../../components/MobileMenu/MobileMenu";
+import Loading from "../../components/Loading/Loading";
 
 import backImg1 from './../../image/mainbg/header.jpg';
 import backImg2 from './../../image/mainbg/main.jpg';
@@ -24,19 +25,25 @@ export const Dashboard = () => {
   const handleMobileMenuClose = () => {
     setMobileMenuStatus(false);
   };
-
+  const [isloading, setloading] = useState(true);
+  
   useEffect(() => {
-    
+    setTimeout(function(){
+      setloading(false);
+    }, 7000);
   });
+
+  
 
   return (
     <div className="container">
+      <Loading isloading = {isloading}/>
       <MobileMenu
         className="mobileMenuRoot"
         show={mobileMenuStatus}
         onClose={handleMobileMenuClose}
       />
-      <div className={clsx(mobileMenuStatus ? "NoneDisplay" : "container")}>
+      <div className={clsx(mobileMenuStatus||isloading ? "NoneDisplay" : "container")}>
         <div className="container-header">
           <div className="header-contains">
             <AppBar menuClick={handleMobileMenuClick} />
